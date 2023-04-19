@@ -1,0 +1,133 @@
+@media screen and (min-width: 768px) {
+    .menu-button {
+        display: none;
+    }
+
+    .top-header {
+        display: flex;
+    }
+
+    .desktop-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff;
+    }
+
+    .desktop-menu .logo {
+        width: 130px;
+        height: 65px;
+        background: url("/Images/logo.png") no-repeat center center;
+        background-size: cover;
+    }
+
+    .desktop-menu ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 2rem;
+    }
+
+    .desktop-menu a {
+        text-decoration: none;
+        color: #272a31;
+    }
+
+    .desktop-menu a:hover {
+        color: #ec5242;
+    }
+
+    .desktop-menu button {
+        background-color: #fff;
+        border: 5px solid #ec5242;
+        padding: 8px 20px;
+        color: #ec5242;
+        cursor: pointer;
+    }
+
+    .banner-page {
+        padding: 2rem;
+        align-items: flex-start;
+    }
+
+    #banner .brief-description-banner {
+        width: 60%;
+        max-width: 600px;
+    }
+
+    .main-container {
+        gap: 3px;
+    }
+
+    .program {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: auto;
+    }
+
+    .program p {
+        max-width: 160px;
+        text-align: center;
+    }
+
+    #main button {
+        display: none;
+    }
+
+    #main a {
+        display: inline;
+    }
+
+    .partner-about {
+        display: none;
+    }
+
+    .footer-about {
+        background-color: #272a31;
+        color: #fff;
+    }
+
+    .footer-about span {
+        color: #fff;
+    }
+
+    .card-wrapper {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .desktop-menu .logo {
+        font-size: 1.5rem;
+    }
+
+    .desktop-menu ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 3rem;
+    }
+
+    .banner-page {
+        padding: 3rem 7rem 0 7rem;
+    }
+
+    #banner h2 {
+        font-size: 2.3rem;
+    }
+
+    #banner h1 {
+        font-size: 4.2rem;
+    }
+
+    .about-us {
+        align-self: stretch;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 1rem;
+    }
+
+
+}
