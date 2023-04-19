@@ -21,13 +21,13 @@
 }
 
 .top-header ul .f-icon {
-  background: url(../images/icons/facebook.png) no-repeat center center;
+  background: url(../Images/icons/facebook.png) no-repeat center center;
   background-size: 17px;
   filter: invert(1);
 }
 
 .top-header ul .t-icon {
-  background: url(../images/icons/twitter.png) no-repeat center center;
+  background: url(../Images/icons/twitter.png) no-repeat center center;
   background-size: 17px;
   filter: invert(1);
 }
@@ -408,11 +408,11 @@ h2 {
 }
 
 .summit1 {
-  background: linear-gradient(#d42000af, #bd22079a), url(../images/about/about-card-background1.jpg) no-repeat center center;
+  background: linear-gradient(#d42000af, #bd22079a), url(../Images/about/about-card-background1.jpg) no-repeat center center;
 }
 
 .summit2 {
-  background: linear-gradient(#d42000af, #bd22079a), url(../images/about/about-card-background2.jpg) no-repeat center center;
+  background: linear-gradient(#d42000af, #bd22079a), url(../Images/about/about-card-background2.jpg) no-repeat center center;
 }
 
 .previous-summit {
@@ -459,26 +459,26 @@ h2 {
 }
 
 .mozilla {
-  background: url(../images/partners/mozilla.png) no-repeat center center;
+  background: url(../Images/partners/mozilla.png) no-repeat center center;
   filter: invert(100%);
   background-size: 125px;
 }
 
 .google {
-  background: url(../images/partners/google.png) no-repeat center center;
+  background: url(../Images/partners/google.png) no-repeat center center;
   background-size: 110px;
 }
 
 .naver {
-  background: url(../images/partners/naver.png) no-repeat center center;
+  background: url(../Images/partners/naver.png) no-repeat center center;
 }
 
 .daumkakao {
-  background: url(../images/partners/daumkakao.png) no-repeat center center;
+  background: url(../Images/partners/daumkakao.png) no-repeat center center;
 }
 
 .airbnb {
-  background: url(../images/partners/airbnb.png) no-repeat center center;
+  background: url(../Images/partners/airbnb.png) no-repeat center center;
 }
 
 #partner ul li {

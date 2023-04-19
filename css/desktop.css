@@ -17,7 +17,7 @@
   .desktop-menu .logo {
     width: 130px;
     height: 65px;
-    background: url("/Images/logo.png") no-repeat center center;
+    background: url(/Images/logo.png) no-repeat center center;
     background-size: cover;
   }
 
