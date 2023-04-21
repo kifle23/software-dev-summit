@@ -141,8 +141,8 @@
 
 .text-back {
   text-align: left;
-  font-weight: 900;
-  font-size: 3rem;
+  font-weight: 600;
+  font-size: 1.8rem;
   background-image: url(../Images/text-background.jpg);
   background-clip: inherit;
   -webkit-background-clip: text;
@@ -152,9 +152,10 @@
 }
 
 #banner h1,
-h2 {
+span {
   color: #ec5242;
-  font-weight: 250;
+  font-weight: 600;
+  font-size: 2.5rem;
   font-family: 'Cocogoose', sans-serif;
 }
 
@@ -200,6 +201,10 @@ h2 {
 #main h2 {
   color: #fff;
   font-weight: 400;
+}
+
+.section-headline {
+  text-align: center;
 }
 
 .section-headline::after {
@@ -451,11 +456,13 @@ h2 {
   color: #fff;
   font-size: 3rem;
   font-weight: 600;
+  text-align: center;
 }
 
 .previous-summit span:nth-child(2) {
   color: #fff;
   font-size: 1.1rem;
+  text-align: center;
 }
 
 /* Partner */

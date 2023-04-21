@@ -133,7 +133,8 @@
   }
 
   #banner h1 {
-    font-size: 4.2rem;
+    font-weight: 600;
+    font-size: 4rem;
   }
 
   .about-us {
