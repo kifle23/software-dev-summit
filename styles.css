@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Cocogoose';
+  src: url(../fonts/cocogoose.otf) format('opentype');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -50,7 +55,7 @@
 }
 
 #banner {
-  background: url(./Images/BG1.jpg) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.911), rgb(255, 255, 255)), url(../images/background.jpg) no-repeat center center/cover;
   height: 100vh;
   z-index: -1;
   padding-bottom: 5rem;
@@ -134,11 +139,7 @@
   flex-shrink: 0;
 }
 
-section h1 {
-  text-align: center;
-}
-
-.banner h1 {
+.text-back {
   text-align: left;
   font-weight: 900;
   font-size: 3rem;
@@ -153,7 +154,8 @@ section h1 {
 #banner h1,
 h2 {
   color: #ec5242;
-  font-weight: 400;
+  font-weight: 250;
+  font-family: 'Cocogoose', sans-serif;
 }
 
 .align-center {
@@ -174,8 +176,8 @@ h2 {
 }
 
 .date-location h2 {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.5rem;
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 1.2rem;
   color: #36383d;
 }
 
