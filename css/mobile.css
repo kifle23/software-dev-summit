@@ -86,11 +86,11 @@
 
 #banner {
   padding-bottom: 5rem;
-  height: 100vh;
+  height: 82vh;
 }
 
 #background-video {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   object-fit: cover;
   position: absolute;
@@ -219,7 +219,6 @@ h2 {
   gap: 2.5rem;
   background-color: rgba(255, 255, 255, 0.13);
   border: 2px solid transparent;
-  padding: 1rem;
   width: 90%;
   max-width: 530px;
   transition: all 0.3s;
@@ -227,7 +226,7 @@ h2 {
 
 .program:hover {
   border: 2px solid #fff;
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
 
 .i-lecture {
@@ -377,7 +376,8 @@ h2 {
 /* Main Program */
 
 #about {
-  padding: 50px 0;
+  padding-top: 10rem;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;

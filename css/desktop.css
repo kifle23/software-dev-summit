@@ -110,7 +110,7 @@
 
 @media screen and (min-width: 1024px) {
   #about {
-    padding: 0 0 3rem 0;
+    padding: 3rem 0 3rem 0;
   }
 
   .desktop-menu .logo {
